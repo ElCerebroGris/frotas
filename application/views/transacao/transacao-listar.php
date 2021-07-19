@@ -75,8 +75,14 @@
 											<div class="row">
 												<div style="float: right; margin-top: 12px;">
 													<form class="form-inline">
-														<a class="btn btn-primary waves-effect waves-light" 
-														href="<?= base_url() ?>welcome/transacaoAdd">ADICIONAR</a>
+                                          <a class="btn btn-primary waves-effect waves-light" 
+														   href="<?= base_url() ?>welcome/transacaoAdd">NOVO PAGAMENTO DE SALÁRIO</a>
+
+														<a style="margin-left: 12px;" class="btn btn-primary waves-effect waves-light" 
+														href="<?= base_url() ?>welcome/transacaoAdd">NOVA DESPESA DE OPERAÇÕES</a>
+
+                                          <a style="margin-left: 12px;" class="btn btn-primary waves-effect waves-light" 
+														href="<?= base_url() ?>welcome/transacaoAddEntrada">NOVA ENTRADA</a>
 
 														<a style="margin-left: 12px;" class="btn btn-info waves-effect waves-light" 
 														href="<?= base_url() ?>welcome/transacao">PESQUISAR</a>
@@ -102,6 +108,7 @@
                                        <th>Total</th>
 													<th>Feita por</th>
                                        <th>Data</th>
+                                       <th>Ações</th>
                                     </tr>
                                  </thead>
                                  <tbody>
@@ -112,6 +119,10 @@
                                        <td>110799,00 AKZ</td>
                                        <td>paulo</td>
 													<td>09/05/2021 - 12:30</td>
+                                       <td>
+                                          <a class="btn btn-primary waves-effect waves-light" 
+														   href="<?= base_url() ?>welcome/transacaoVer">Detalhes</a>
+                                       </td>
                                     </tr>
                                     <tr>
                                        <td>2</td>
@@ -120,6 +131,10 @@
                                        <td>110799,00 AKZ</td>
                                        <td>paulo</td>
 													<td>09/05/2021 - 12:30</td>
+                                       <td>
+                                          <a class="btn btn-primary waves-effect waves-light" 
+														   href="<?= base_url() ?>welcome/transacao">Detalhes</a>
+                                       </td>
                                     </tr>
 												<tr>
                                        <td>1</td>
@@ -128,6 +143,10 @@
                                        <td>110199,00 AKZ</td>
                                        <td>paulo</td>
 													<td>09/05/2021 - 12:30</td>
+                                       <td>
+                                          <a class="btn btn-primary waves-effect waves-light" 
+														   href="<?= base_url() ?>welcome/transacao">Detalhes</a>
+                                       </td>
                                     </tr>
                                     <tr>
                                        <td>2</td>
@@ -136,6 +155,10 @@
                                        <td>210799,00 AKZ</td>
                                        <td>paulo</td>
 													<td>09/05/2021 - 12:30</td>
+                                       <td>
+                                          <a class="btn btn-primary waves-effect waves-light" 
+														   href="<?= base_url() ?>welcome/transacao">Detalhes</a>
+                                       </td>
                                     </tr>
                                  </tbody>
                               </table>

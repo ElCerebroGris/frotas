@@ -6,14 +6,14 @@
             <div class="row">
                <div class="col-sm-12 p-0">
                   <div class="main-header">
-                     <h4>Motoristas</h4>
+                     <h4>Funcionários</h4>
                      <ol class="breadcrumb breadcrumb-title breadcrumb-arrow">
                         <li class="breadcrumb-item">
                            <a href="index.html">
                               <i class="icofont icofont-home"></i>
                            </a>
                         </li>
-                        <li class="breadcrumb-item"><a href="#">Motoristas</a>
+                        <li class="breadcrumb-item"><a href="#">Funcionários</a>
                         </li>
                         <li class="breadcrumb-item"><a href="basic-table.html">Listar</a>
                         </li>
@@ -30,7 +30,7 @@
                   <!-- Hover effect table starts -->
                   <div class="card">
                      <div class="card-header">
-                        <h5 class="card-header-text">Lista de Motoristas</h5>
+                        <h5 class="card-header-text">Lista de Funcionários</h5>
 								<div class="card-block" style="float: right;">
                               <form class="form-inline">
                                  <div class="form-group m-r-15">
@@ -38,7 +38,7 @@
                                     <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Pesquisar">
                                  </div>
 											<a class="btn btn-primary waves-effect waves-light" 
-											href="<?= base_url() ?>welcome/motoristasAdd">ADICIONAR</a>
+											href="<?= base_url() ?>welcome/funcionarioAdd">ADICIONAR</a>
                               </form>
                            </div>
                      	</div>

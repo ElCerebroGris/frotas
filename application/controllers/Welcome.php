@@ -28,21 +28,33 @@ class Welcome extends CI_Controller {
         redirect('welcome');
     }
 
-	public function motoristas() {
+	public function funcionario() {
         $this->load->view('includes/header');
-        $this->load->view('motoristas');
+        $this->load->view('funcionario/funcionario-listar');
         $this->load->view('includes/footer');
     }
 
-	public function motoristasAdd() {
+	public function funcionarioAdd() {
         $this->load->view('includes/header');
-        $this->load->view('motoristas-add');
+        $this->load->view('funcionario/funcionario-add');
         $this->load->view('includes/footer');
     }
 
-	public function motoristaPerfil() {
+	public function funcionarioPerfil() {
         $this->load->view('includes/header');
-        $this->load->view('motoristas-perfil');
+        $this->load->view('funcionario/funcionario-perfil');
+        $this->load->view('includes/footer');
+    }
+
+    public function utilizador() {
+        $this->load->view('includes/header');
+        $this->load->view('utilizador/utilizador-listar');
+        $this->load->view('includes/footer');
+    }
+
+	public function utilizadorAdd() {
+        $this->load->view('includes/header');
+        $this->load->view('utilizador/utilizador-add');
         $this->load->view('includes/footer');
     }
 
@@ -55,6 +67,18 @@ class Welcome extends CI_Controller {
 	public function transacaoAdd() {
         $this->load->view('includes/header');
         $this->load->view('transacao/transacao-add');
+        $this->load->view('includes/footer');
+    }
+
+    public function transacaoVer() {
+        $this->load->view('includes/header');
+        $this->load->view('transacao/transacao-ver');
+        $this->load->view('includes/footer');
+    }
+
+    public function transacaoAddEntrada() {
+        $this->load->view('includes/header');
+        $this->load->view('transacao/transacao-add-entrada');
         $this->load->view('includes/footer');
     }
 

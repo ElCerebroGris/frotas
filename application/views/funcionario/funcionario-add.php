@@ -6,14 +6,14 @@
 		<div class="row">
 			<div class="col-sm-12 p-0">
 				<div class="main-header">
-					<h4>Motoristas</h4>
+					<h4>Funcionários</h4>
 					<ol class="breadcrumb breadcrumb-title breadcrumb-arrow">
 						<li class="breadcrumb-item">
 							<a href="index.html">
 								<i class="icofont icofont-home"></i>
 							</a>
 						</li>
-						<li class="breadcrumb-item"><a href="#">Motoristas</a>
+						<li class="breadcrumb-item"><a href="#">Funcionários</a>
 						</li>
 						<li class="breadcrumb-item"><a href="basic-table.html">Adicionar</a>
 						</li>
@@ -30,9 +30,23 @@
 				<!-- Hover effect table starts -->
 				<div class="card">
 					<div class="card-header">
-						<h5 class="card-header-text">Adicionar Motorista</h5>
+						<h5 class="card-header-text">Adicionar Funcionário</h5>
 
 						<div class="card-block">
+							<div class="row">
+								<div class="col-sm-12">
+									<div class="form-group">
+										<label for="file" class="col-form-label form-control-label">Fotografia</label>
+										<div class="">
+											<label for="file" class="custom-file">
+												<input type="file" id="file" class="custom-file-input">
+												<span class="custom-file-control"></span>
+											</label>
+										</div>
+									</div>
+								</div>
+							</div>
+
 							<div class="row">
 								<div class="col-sm-4">
 									<div class="form-group">
@@ -113,6 +127,16 @@
 									</div>
 								</div>
 							</div>
+
+							<div class="row">
+								<div class="col-sm-12">
+									<div class="form-group">
+										<label for="exampleTextarea" class="form-control-label">Endereço</label>
+											<textarea class="form-control" id="exampleTextarea" rows="4"></textarea>
+									</div>
+								</div>
+							</div>
+
 							<h5>Telefone Atribuido</h5>
 							<div class="row">
 								<div class="col-sm-3">

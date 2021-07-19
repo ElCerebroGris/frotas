@@ -66,14 +66,23 @@
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-sm-6">
+								<div class="col-sm-4">
+									<div class="form-group">
+										<label for="exampleSelect1" class="form-control-label">Proprieterio</label>
+										<select class="form-control" id="exampleSelect1">
+											<option>Letransport</option>
+											<option>Privado</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-sm-4">
 									<div class="form-group">
 										<label for="exampleInputEmail1" class="form-control-label">Nome Proprietario</label>
 										<input type="text" class="form-control" id="exampleInputEmail1"
 											aria-describedby="emailHelp">
 									</div>
 								</div>
-								<div class="col-sm-6">
+								<div class="col-sm-4">
 									<div class="form-group">
 										<label for="exampleInputEmail1" class="form-control-label">BI Proprietario</label>
 										<input type="text" class="form-control" id="exampleInputEmail1"

@@ -15,7 +15,7 @@
 						</li>
 						<li class="breadcrumb-item"><a href="#">Transações</a>
 						</li>
-						<li class="breadcrumb-item"><a href="#">Adicionar</a>
+						<li class="breadcrumb-item"><a href="#">Ver</a>
 						</li>
 					</ol>
 				</div>
@@ -30,17 +30,15 @@
 				<!-- Hover effect table starts -->
 				<div class="card">
 					<div class="card-header">
-						<h5 class="card-header-text">Adicionar Transação</h5>
+						<h5 class="card-header-text">Transação</h5>
 
 						<div class="card-block">
 							<div class="row">
 								<div class="col-sm-12">
 									<div class="form-group">
 										<label for="exampleSelect1" class="form-control-label">Funcionário</label>
-										<select class="form-control" id="exampleSelect1">
+										<select disabled class="form-control" id="exampleSelect1">
 											<option>Adão Mário</option>
-											<option>Paulo Mateus</option>
-											<option>Osvaldo João</option>
 										</select>
 									</div>
 								</div>
@@ -50,9 +48,8 @@
 								<div class="col-sm-6">
 									<div class="form-group">
 										<label for="exampleSelect1" class="form-control-label">Tipo</label>
-										<select class="form-control" id="exampleSelect1">
+										<select disabled class="form-control" id="exampleSelect1">
 											<option>Despesa de Operações</option>
-											<option>Pagamento de salário</option>
 										</select>
 									</div>
 								</div>
@@ -60,7 +57,7 @@
 								<div class="col-sm-6">
 									<div class="form-group">
 										<label for="exampleInputEmail1" class="form-control-label">Total (AKZ)</label>
-										<input type="text" class="form-control" id="exampleInputEmail1"
+										<input disabled type="text" class="form-control" id="exampleInputEmail1"
 											aria-describedby="emailHelp">
 									</div>
 								</div>
@@ -69,7 +66,7 @@
 								<div class="col-sm-12">
 									<div class="form-group">
 										<label for="exampleInputEmail1" class="form-control-label">IBAN</label>
-										<input type="text" class="form-control" id="exampleInputEmail1"
+										<input disabled type="text" class="form-control" id="exampleInputEmail1"
 											aria-describedby="emailHelp">
 									</div>
 								</div>
@@ -79,16 +76,9 @@
 								<div class="col-sm-12">
 									<div class="form-group">
 										<label for="exampleTextarea" class="form-control-label">Descrição</label>
-											<textarea class="form-control" id="exampleTextarea" rows="4"></textarea>
+											<textarea disabled class="form-control" id="exampleTextarea" rows="4"></textarea>
 									</div>
 								</div>
-							</div>
-
-							<div class="card-block1" style="float: right;">
-								<form class="form-inline">
-									<a class="btn btn-primary waves-effect waves-light"
-										href="<?= base_url() ?>welcome/transacao">SALVAR</a>
-								</form>
 							</div>
 						</div>
 					</div>

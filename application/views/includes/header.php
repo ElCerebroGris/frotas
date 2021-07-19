@@ -128,12 +128,7 @@
                     </a>                
                 </li>
 								<li class="treeview">
-                    <a class="waves-effect waves-dark" href="<?= base_url() ?>welcome/motoristas">
-                        <i class="icon-user"></i><span> Motoristas</span>
-                    </a>                
-                </li>
-								<li class="treeview">
-                    <a class="waves-effect waves-dark" href="index.html">
+                    <a class="waves-effect waves-dark" href="<?= base_url() ?>welcome/funcionario">
                         <i class="icon-user"></i><span> Funcionarios</span>
                     </a>                
                 </li>
@@ -150,7 +145,7 @@
                 </li>
 					 <li class="nav-level">--- Administração</li>
 						<li class="treeview">
-                    <a class="waves-effect waves-dark" href="index.html">
+                    <a class="waves-effect waves-dark" href="<?= base_url() ?>welcome/utilizador">
                         <i class="icon-user"></i><span> Utilizadores</span>
                     </a>                
                 	</li>
